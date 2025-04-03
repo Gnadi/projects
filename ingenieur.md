@@ -118,16 +118,32 @@ Nach Abschluss der “Bankgarantie Ausland” startete das letzte Projekt welche
 
 Im Jahr 2023 wechselte ich in das Team **Zahlungsverkehr Infinity** und arbeitete an der Ablösung des **Multi-Banking-Standards (MBS)** durch den moderneren **Electronic Banking Internet Communication Standard (EBICS)**. Dieses Projekt hatte eine sehr hohe strategische Bedeutung, da EBICS eine zukunftssichere Grundlage für den Zahlungsverkehr darstellt und das EOL für MBS 2025 ist.  
 
-Ein wesentlicher Bestandteil des Projekts war die Einschulung in den neuen Standard EBICS. Dies erforderte eine intensive Zusammenarbeit mit Fachexperten, um die komplexen fachlichen und technischen Anforderungen zu verstehen und umzusetzen.
+Ein wesentlicher Bestandteil des Projekts war die Einschulung in den Standard EBICS. Dies erforderte eine intensive Zusammenarbeit mit Fachexperten, um die komplexen fachlichen und technischen Anforderungen zu verstehen und umzusetzen.
 Dabei war es bei der technischen Umsetzung wichtig, verständliche und klar definierte aber auch dynamisch schnell anpassbare Lösungen umzusetzen, was oftmals im Widerspruch zu sich stand.
 
 Regelmäßige Reviews mit den Fachexperten spielten eine entscheidende Rolle, um Änderungswünsche frühzeitig zu identifizieren und zu integrieren. Dadurch konnten wir eine hohe Qualität und Kundenzufriedenheit gewährleisten.
 
-Zeitgleich zur Ablöse von MBS waren auch zwei weitere Projekte wichtig, da diese von den Auftraggebern dringend zur Ablöse von ELBA5 (Firmenbanking Software, welche durch Infinty abgelöst wird) benötigt werden:
+Zeitgleich zur Ablöse von MBS waren auch weitere Projekte an denen ich gearbeitet habe wichtig, da diese von den Auftraggebern dringend zur Ablöse von ELBA5 (Firmenbanking Software, welche durch Infinty abgelöst wird) benötigt werden:
 
 - **Internationaler Zahlungsverkehr**  
-- **Deutscher Markt** 
+- **Deutscher Markt**
+- **Periodische Aufträge**
 
-**Internationaler ZV** beinhaltet die Funktion, Konten von fremden Banken im Ausland in Infinity einzubinden und verwenden zu können (zur Auftragserfassung und Anzeige von Kontoauszügen). Besonderheit dabei ist, dass dieses Konto ausschließlich bei der fremden Bank existiert und wir diese Bank zur Durchführung von Aufträgen beauftragen (SWIFT)
+**Internationaler ZV** beinhaltet die Funktion, Konten von fremden Banken im Ausland in Infinity einzubinden und verwenden zu können (zur Auftragserfassung und Anzeige von Kontoauszügen). Besonderheit dabei ist, dass dieses Konto ausschließlich bei der fremden Bank existiert und wir diese Bank zur Durchführung von Aufträgen beauftragen (SWIFT). In diesem Projekt war besonders die Zusammenarbeit mit anderen Teams wichtig, sowie die Durchführung eines umfassenden End2End Tests.
 
-**Deutscher Markt** beinhaltet die Funktion, deutsche Bankverbindungen in Infinity einzurichten und diese mit fast allen Funktionen (außer Dauerauftrag) verwenden zu können.
+**Deutscher Markt** beinhaltet die Funktion, deutsche Bankverbindungen in Infinity einzurichten und diese mit fast allen Funktionen (außer Dauerauftrag) verwenden zu können. Dabei war die Umsetzung der deutschen EBICS Norm eine besondere Herausforderung, da diese sich in wichtigen Teilen von der österreichischen unterscheidet. Deshalb war es unser Ziel die Definitionen eindeutig und zentral zu steuern.
+
+**Periodische Aufträge** beinhaltet die Funktion, einen Auftrag zu definieren, welcher in einer bestimmten Periode wiederholt generiert wird und dem Kunden in der Auftragsübersicht bereit steht.
+
+## Hackathons
+
+- **Bring Raiffeisen zum Fliegen!**
+- **Wir bringen Raiffeisen ins Spiel**
+
+**Bring Raiffeisen zum Fliegen** bei dem Hackathon wurde eine virtual Reality App für die **Samsung Gear VR** in Kombination mit dem Sportgerät **Icaros**. Entwickelt wurde die Android App mit Unity. Besonders die Herausforderungen mit begrenzter Leistung der Hardware (Samsung Galaxy Smartphone) hat uns in diesem Projekt beschäftigt. Zum Abschluss des Hackathons, hatten wir eine voll funktionstüchtige App, bei der man auf einem Vogel durch eine Röhre fliegt und Münzen sammelt inkl. Scoreboard.
+**Ergebnis: 3. Platz**
+
+**Wir bringen Raiffeisen ins Spiel** bei diesem Hackathon wurden gleich drei Funktionen umgesetzt. In der neuen Raiffeisen Arena sind iBeacons an entscheidenden Stellen verbaut (Eingang, Imbiss usw.). Nach performanter und zentraler Verarbeitung aller iBeacon Daten, wurde eine Android App, mit Informationen für alle iBeacon Orte umgesetzt (Ticket beim Eingang, Speisekarte beim Imbiss u.v.m.). In der App besteht die Möglichkeit sich mit Freunden (anderen App Nutzern) zu verbinden. Durch die gute iBeacon Abdeckung der Raiffeisen Arena, war es möglich den ungefähren Standpunkt der verbunden Nutzer anzuzeigen (FriendFinder). Zudem wurde ein Dashboard umgesetzt, welches Besucherströme und Auslastung der Raiffeisen Arena darstellt und historische Analysen möglich macht.
+**Ergebnis: 2. Platz**
+
+
