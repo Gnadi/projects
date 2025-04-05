@@ -1,4 +1,4 @@
-# Projekte mit Johannes Gnadlinger (2018-jetzt)
+# Projekte mit Johannes Gnadlinger (2018 - heute)
 ## Arbeitgeber: Raiffeisen Software GmbH
 ### Aufgabengebiete: Softwareentwicklung, Testautomatisierung, Projektplanung
 ---
