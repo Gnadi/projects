@@ -1,0 +1,49 @@
+name: Convert and Commit projects.md
+
+on:
+  push:
+    paths:
+      - 'projects.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # wichtig für Push
+          fetch-depth: 0  # vollständiger Git-Verlauf
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf imagemagick
+
+      - name: Convert to HTML
+        run: |
+          pandoc projects.md -o projects.html
+
+      - name: Convert to PDF
+        run: |
+          pandoc projects.md -o projects.pdf
+
+      - name: Convert to JPEG (via HTML screenshot)
+        run: |
+          wkhtmltoimage projects.html projects.jpg
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions-converter"
+          git config user.email "johannes.gnadlinger1997@gmail.com"
+
+          git add projects.html projects.pdf projects.jpg
+          
+          # Nur committen, wenn sich was geändert hat
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update projects.* on change to projects.md"
+            git push
+          else
+            echo "No changes to commit"
+          fi
