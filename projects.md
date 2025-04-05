@@ -146,4 +146,7 @@ Zeitgleich zur Ablöse von MBS waren auch weitere Projekte an denen ich gearbeit
 **Wir bringen Raiffeisen ins Spiel** bei diesem Hackathon wurden gleich drei Funktionen umgesetzt. In der neuen Raiffeisen Arena sind iBeacons an entscheidenden Stellen verbaut (Eingang, Imbiss usw.). Nach performanter und zentraler Verarbeitung aller iBeacon Daten, wurde eine Android App, mit Informationen für alle iBeacon Orte umgesetzt (Ticket beim Eingang, Speisekarte beim Imbiss u.v.m.). In der App besteht die Möglichkeit sich mit Freunden (anderen App Nutzern) zu verbinden. Durch die gute iBeacon Abdeckung der Raiffeisen Arena, war es möglich den ungefähren Standpunkt der verbunden Nutzer anzuzeigen (FriendFinder). Zudem wurde ein Dashboard umgesetzt, welches Besucherströme und Auslastung der Raiffeisen Arena darstellt und historische Analysen möglich macht.
 **Ergebnis: 2. Platz**
 
+**Climathon** bei diesem Hackathon war die Herausforderung das Reisen per Bahn attraktiver zu gestalten und generell Ideen für eine moderene Bahninfrastruktur zu entwickeln. Wir entschieden uns voll auf das attraktivere Reisen per Bahn zu konzentrieren und präsentierten zum Schluss eine ausgereifte App mit der Kunden ihr eingespartes CO2 in Gutscheine im Bordbistro oder Gutscheine eintauschen können. Für die Entwicklung der App haben wir uns für Flutter entschieden.
+**Ergebnis: 4. Platz**
+
 
