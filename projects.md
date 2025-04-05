@@ -130,7 +130,7 @@ Zeitgleich zur Ablöse von MBS waren auch weitere Projekte an denen ich gearbeit
 - **Periodische Aufträge**
 
 **Internationaler ZV** beinhaltet die Funktion, Konten von fremden Banken im Ausland in Infinity einzubinden und verwenden zu können (zur Auftragserfassung und Anzeige von Kontoauszügen). Besonderheit dabei ist, dass dieses Konto ausschließlich bei der fremden Bank existiert und wir diese Bank zur Durchführung von Aufträgen beauftragen (SWIFT). In diesem Projekt war besonders die Zusammenarbeit mit anderen Teams wichtig, sowie die Durchführung eines umfassenden End2End Tests.
-
+<div style="page-break-after: always;"></div>
 **Deutscher Markt** beinhaltet die Funktion, deutsche Bankverbindungen in Infinity einzurichten und diese mit fast allen Funktionen (außer Dauerauftrag) verwenden zu können. Dabei war die Umsetzung der deutschen EBICS Norm eine besondere Herausforderung, da diese sich in wichtigen Teilen von der österreichischen unterscheidet. Deshalb war es unser Ziel die Definitionen eindeutig und zentral zu steuern.
 
 **Periodische Aufträge** beinhaltet die Funktion, einen Auftrag zu definieren, welcher in einer bestimmten Periode wiederholt generiert wird und dem Kunden in der Auftragsübersicht bereit steht.
