@@ -8,7 +8,7 @@ date: 2025-04-05
 # Projekte mit Johannes Gnadlinger (2018 - heute)
 ## Arbeitgeber: Raiffeisen Software GmbH
 ### Aufgabengebiete: Softwareentwicklung, Testautomatisierung, Projektplanung
----
+***
 ### Berufseinstieg / MeinELBA Versicherungen
 
 Am 01.07.2018 begann ich direkt nach meinem Zivildienst meinen ersten Beruf als Softwareentwickler bei der Raiffeisen Software GmbH.
@@ -20,7 +20,7 @@ An den Erfolg dieses Projektes angeschlossen, habe ich noch weitere Aufträge f�
 
 Diese Projekte gaben mir die Möglichkeit, sowohl meine technischen Fähigkeiten als auch mein Verständnis für kundenorientierte Softwarelösungen weiterzuentwickeln.
 
----
+***
 
 ### Testautomatisierung / Releasemanagement
 
@@ -33,7 +33,7 @@ Besonders beschäftigt hat mich hierbei die Sicherstellung der Softwarequalität
 <div style="page-break-after: always;"></div>
 In diesem Projekt lernte ich viele neue Tools und Techniken kennen und konnte mein Wissen auch schnell innerhalb der Organisation verbreiten. Zum Ende des Projektes wurde ich zum Verantwortlichen des Applikationstests ernannt, dieser Test beinhaltet alle Smoke- und Regressionstests der Produktgruppe meinELBA und prüft bei jedem Release meinELBA - ohne einem positiven Testergebnis ist kein Release möglich.
 
----
+***
 
 ### Infinity Banknachrichten / Benachrichtigungen / Berateranzeige
 
@@ -44,7 +44,7 @@ Bei dem Auftrag **Banknachrichten** im Infinity Portal, durfte ich wieder gemein
 Bei der Umsetzung der Anzeige des Beraters im Infinity Portal stand die optische Darstellung im Vordergrund, bei der ich vor allem im Bereich responsives Design große Fortschritte.
 
 
----
+***
 
 ### MeinELBA Barrierefreiheit
 
@@ -52,7 +52,7 @@ Nach Fertigstellung der MVP-Funktionen von meinELBA, startete das Projekt Barrie
 In diesem Projekt war ich zum ersten Mal direkt mit dem österreichischen Blindenverband im Kontakt und lernte Feedback anzunehmen und in unsere Komponenten einzuarbeiten. 
 Unser Produkt durch einen ganz anderen Blickwinkel kennenzulernen führte zu viel Umdenken, welches sich bis heute durchzieht.
 
----
+***
 
 ### Infinity Requirements Engineering
 
@@ -66,7 +66,7 @@ In dieser Zeit lernte ich Verantwortung für meine Projekte zu übernehmen, das 
 <div style="page-break-after: always;"></div> 
 In dieser Zeit lernte ich viele Funktionen von JIRA und Confluence zu nutzen, und wie Fortschritte eines Projektes optimal kommuniziert werden. Zu Beginn lernte ich die Designagentur kennen, mit der ich in gemeinsamer Abstimmung mit den Landesbanken OÖ und NÖW die Konzepte für meine neuen Projekte erfolgreich erarbeiten konnte. Nach Fertigstellung des Konzepts und Abstimmung mit dem Product Owner und Scrum Master des Teams, präsentierte ich zum Ende des Reviews den Zeitplan der Projekte. Die nächsten Wochen unterstützte ich das Entwicklerteam so gut wie möglich und setzte besondere Priorität auf schnelle und verlässliche Entscheidungen bei Fragen. Das war durch eine sehr professionelle Zusammenarbeit von Fachexperten und Designagentur möglich.
 
----
+***
 
 ### MeinELBA 2.0
 
@@ -83,7 +83,7 @@ Bei der Umsetzung von mein ELBA 2.0 lernte ich die Vorteile von Angular 10 im Ve
 
 Das Projekt brachte uns alle nahe an die Belastungsgrenze, bei unserem Product Owner wurde diese leider überschritten - sodass nur noch der Austritt aus unserem Team für ihm eine Lösung war. Das war der Zeitpunkt an dem ich, aufgrund meiner Erfahrung als Requirements Engineer mich entschied, das Projekt Infinity Mailbox zu übernehmen.
 
----
+***
 
 ### Infinity Mailbox
 
@@ -95,7 +95,7 @@ Die Abnahmetests stellten uns bei diesem Projekt, aufgrund des knappen Zeitplans
 Um frühzeitige Abnahmetests bereits durchführen zu können, entschieden wir uns einzelne Softwaremodule vorübergehend durch Mocks auszutauschen. Das erleichterte die Entwicklung besonders bei einem Team und gab Rückhalt für die anderen Teams.
 Für den finalen Abnahmetest war eine Zusammenarbeit aller vier Teams notwendig. Zuvor wurden ausgewählte Benutzer für den Test vorbereitet (unter anderem auch die, der Fachexperten). Durch diese wertvolle und zeitintensive Vorbereitung, war ein reibungsloser Abnahmetest möglich. Mit dem Abschluss der Entwicklung und der Abnahme durch die Landesbank OÖ, Landesbank NÖW und dem Raiffeisen Verband Salzburg konnten wir die Infinity Mailbox, wie geplant für unsere Kunden zum Rollout von dem Infinity Portal zur Verfügung stellen!
 
----
+***
 
 ### Infinity Benachrichtigungen
 
@@ -106,20 +106,20 @@ Nachdem der erste Teil (individuelle Benachrichtigungen) der Erweiterungen von d
 Bei der Übergabe war mir legte ich besonders Wert auf das fachliche Verständins unserer Projekte in Infinity und dem BigPicture des Gesamtprojekts. Die Details zu den Projekten waren ausführlich in **Confluence** dokumentiert, sodass diese in Eigenstudium vom neuen Kollegen übernommen werden konnten. Auch das Vorstellen des Kollegen in anderen Teams, mit denen wir bereits Projekte umgesetzt hatten, war für mich wichtig um hier Ansprechpersonen vorzustellen.
 
 
----
+***
 
 ### Infinity Bankgarantie Ausland
 
 Das nächste Projekt übernahmen wir von einem anderen Infinity Team, dabei ist das Ziel dem Kunden eine Bankgarantie für das Ausland im Infinity Portal anfordern zu können. Bei diesem Projekt wurde besonderer Wert auf Lesbarkeit und Wartbarkeit des Codes gesetzt, nachdem das später wieder von dem anderen Team übernommen werden soll. Dazu musste erst ein geeigneter Arbeitsmodus gefunden werden. Code-Reviews während unserer Entwicklung durch das andere Team waren leider nicht erfolgreich, Grund dafür waren verschiedene Auffassungen zum Umfang eines Pull Requests. Deshalb wurde das Code-Review von unserem Team intern gelöst und ein Termin zur Übergabe inkl. Code-Review vereinbart, Vorteil von diesem Arbeitsmodus ist, dass bei der Übergabe noch mehr Wert auf die Codequalität gelegt wurde. Zum Ende des Projektes konnte ich noch wertvolle Skills über das Frontend **Testing Tool Jasmine** sammeln, welche ich gleich anwendete um eine besser Codequalität sichern zu können.
 
----
+***
 <div style="page-break-after: always;"></div>
 
 ### Infinity Terminvereinbarung / Rückrufwunsch
 
 Nach Abschluss der “Bankgarantie Ausland” startete das letzte Projekt welches mir der frühere Product Owner übergeben hatte, die Infinity Terminvereinbarung und Rückrufwunsch. Bei diesem Projekt starteten der neue Product Owner und ich gemeinsam, ich mit der technischen Expertise und der Kollege mit dem Kontakt zu unseren Fachexperten. Bei dem Projekt sind wieder zwei Teams involviert, die technische Abstimmung durfte ich leiten und wurde auch wieder mit dem Software-Architekten und Lead-Developer abgestimmt. Nachdem das Konzept fertig war, unterstützte ich dem neuen Product Owner bei der Erstellung der Tickets und Fragen, sodass ein möglichst rascher Projektstart möglich war. In dem Projekt habe ich auch als Entwickler mitgewirkt und im Frontend verschiedene Masken umgesetzt, auch hier entschieden wir uns fehlende Schnittstellen mit Mocks vorläufig zu ersetzen um früher mit dem Frontend starten zu können. Zum Ende des Projekts beschäftigte ich mich hier, wie bei dem Projekt “Bankgarantie Ausland” auch schon mit dem **Testing Tool Jasmine** beschäftigt und damit die Testabdeckung erheblich steigerte (+>10%)
 
----
+***
 
 ### Infinity Zahlungsverkehr
 
