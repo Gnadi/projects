@@ -27,7 +27,7 @@ jobs:
       # 3. HTML erstellen (mit der offiziellen Pandoc Action)
       #    Diese Action enthält alles, was Pandoc braucht.
       - name: HTML erstellen
-        uses: pandoc/actions@v3
+        uses: pandoc/actions@v4
         with:
           # Hier werden die Pandoc-Befehle übergeben
           args: "projects.md -s -o output/projects.html"
@@ -35,7 +35,7 @@ jobs:
       # 4. PDF erstellen (mit der offiziellen Pandoc Action)
       #    Die Action enthält auch LaTeX für die PDF-Erstellung.
       - name: PDF erstellen
-        uses: pandoc/actions@v3
+        uses: pandoc/actions@v4
         with:
           args: "projects.md --pdf-engine=xelatex -o output/projects.pdf"
 
