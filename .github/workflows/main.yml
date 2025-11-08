@@ -8,6 +8,7 @@ on:
       - "main" # oder "master", je nach Hauptbranch
     paths:
       - 'projects.md' # Nur starten, wenn sich die MD-Datei ändert
+  workflow_dispatch:
 
 jobs:
   build:
