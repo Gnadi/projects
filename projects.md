@@ -1,12 +1,11 @@
 # Projekte mit Johannes Gnadlinger (2018 - heute)
 ## Arbeitgeber: Raiffeisen Software GmbH
-### Aufgabengebiete: Softwareentwicklung, Testautomatisierung, Projektplanung
----
+## Aufgabengebiete: Softwareentwicklung, Testautomatisierung, Projektplanung
 ### Berufseinstieg / MeinELBA Versicherungen
 
 Am 01.07.2018 begann ich direkt nach meinem Zivildienst meinen ersten Beruf als Softwareentwickler bei der Raiffeisen Software GmbH.
-Beim Einstieg in meinen neuen Job wurde ich sehr gut von meinem Mentor begleitet, was es mir ermöglichte bereits im Sommer in meine ersten Schritte im Projekt meinELBA Versicherungen zu wagen. Ziel war es dem Kunden ein möglichst einfach und bequeme Lösung in meinELBA zu bieten um einen Schaden der Versicherung zu melden. In diesem überschaubaren Projekt konnte ich die ersten Veränderungen in meinELBA, sowohl im Frontend als auch im Backend vornehmen. 
-An den Erfolg dieses Projektes angeschlossen, habe ich noch weitere Aufträge für die besser Einbindung und Verwendbarkeit der Versicherungen in meinELBA umgesetzt:  
+Beim Einstieg in meinen neuen Job wurde ich sehr gut von meinem Mentor begleitet, was es mir ermöglichte bereits im Sommer in meine ersten Schritte im Projekt meinELBA Versicherungen zu wagen. Ziel war es dem Kunden eine möglichst einfache und bequeme Lösung in meinELBA zu bieten, um einen Versicherungsschaden zu melden. In diesem überschaubaren Projekt konnte ich die ersten Veränderungen in meinELBA, sowohl im Frontend als auch im Backend vornehmen. 
+An den Erfolg dieses Projektes angeschlossen, habe ich noch weitere Aufträge für die bessere Einbindung und Verwendbarkeit der Versicherungen in meinELBA umgesetzt:  
 
 - **Einbindung von Unwetterwarnungen** für Kunden mit mehreren Policen, um die Relevanz und den Nutzen der Versicherungsinformationen zu erhöhen.  
 - **Rechtlich notwendige Einverständniserklärung**: Ich entwickelte eine Lösung, um sicherzustellen, dass Policen nur dann angezeigt werden, wenn eine rechtliche Zustimmung vorliegt. Diese Komponente war essentiell für die Einhaltung regulatorischer Anforderungen und wurde erfolgreich implementiert.  
@@ -17,7 +16,7 @@ Diese Projekte gaben mir die Möglichkeit, sowohl meine technischen Fähigkeiten
 
 ### Testautomatisierung / Releasemanagement
 
-Nach den Aufträgen der Versicherungen wechselte ich von der Entwicklung in die Testautomatisierung, da diese eine zentrale Rolle im neuen Releaseprozess einnahm. Dabei konnte ich tauchte ich tiefer in den “CT/CD” Prozess der Raiffeisen Software ein und verstand, wie professionelle Software getestet und an die Kunden ausgeliefert wird. 
+Nach den Aufträgen der Versicherungen wechselte ich von der Entwicklung in die Testautomatisierung, da diese eine zentrale Rolle im neuen Releaseprozess einnahm. Dabei vertiefte ich mein Verständnis in den “CI/CD” Prozess der Raiffeisen Software und verstand, wie professionelle Software getestet und an die Kunden ausgeliefert wird. 
 
 Besonders beschäftigt hat mich hierbei die Sicherstellung der Softwarequalität unserer Module im Team. Diese konnte ich durch die Implementierung von:
 
@@ -41,7 +40,7 @@ Bei der Umsetzung der Anzeige des Beraters im Infinity Portal stand die optische
 
 ### MeinELBA Barrierefreiheit
 
-Nach Fertigstellung der MVP-Funktionen von meinELBA, startete das Projekt Barrierefreiheit. Zu Beginn des Projekts wurde Feedback vom östreichischen Blindenverbandes eingeholt.
+Nach Fertigstellung der MVP-Funktionen von meinELBA, startete das Projekt Barrierefreiheit. Zu Beginn des Projekts wurde Feedback vom Östreichischen Blindenverbandes eingeholt.
 In diesem Projekt war ich zum ersten Mal direkt mit dem österreichischen Blindenverband im Kontakt und lernte Feedback anzunehmen und in unsere Komponenten einzuarbeiten. 
 Unser Produkt durch einen ganz anderen Blickwinkel kennenzulernen führte zu viel Umdenken, welches sich bis heute durchzieht.
 
@@ -55,7 +54,7 @@ Parallel zur Barrierefreiheit in meinELBA, wurden die Entwickler und Aufträge i
 2. **Individuelle Startseite im Infinity-Portal**  
 3. **Finanzstatus 2.0**  
 
-In dieser Zeit lernte ich Verantwortung für meine Projekte zu übernehmen, das war mir ganz neu für mich, war ich doch gleichzeitig Verantwortlicher für der Applikationstest beim Release in meinELBA. Die Dokumentation von Fortschritten, sowie die enge Abstimmung mit dem Product Owner bzw. auch dem Scrum Master des Projekts stellten mich vor neuen spannenden Herausforderungen, welche ich mit großartiger Unterstützung und Freude überwinden konnte.  
+In dieser Zeit lernte ich Verantwortung für meine Projekte zu übernehmen, das war völlig neu für mich, war ich doch gleichzeitig Verantwortlicher für den Applikationstest beim Release in meinELBA. Die Dokumentation von Fortschritten, sowie die enge Abstimmung mit dem Product Owner bzw. auch dem Scrum Master des Projekts stellten mich vor neuen spannenden Herausforderungen, welche ich mit Unterstützung und Engagement erfolgreich bewältigte.  
 <div style="page-break-after: always;"></div> 
 In dieser Zeit lernte ich viele Funktionen von JIRA und Confluence zu nutzen, und wie Fortschritte eines Projektes optimal kommuniziert werden. Zu Beginn lernte ich die Designagentur kennen, mit der ich in gemeinsamer Abstimmung mit den Landesbanken OÖ und NÖW die Konzepte für meine neuen Projekte erfolgreich erarbeiten konnte. Nach Fertigstellung des Konzepts und Abstimmung mit dem Product Owner und Scrum Master des Teams, präsentierte ich zum Ende des Reviews den Zeitplan der Projekte. Die nächsten Wochen unterstützte ich das Entwicklerteam so gut wie möglich und setzte besondere Priorität auf schnelle und verlässliche Entscheidungen bei Fragen. Das war durch eine sehr professionelle Zusammenarbeit von Fachexperten und Designagentur möglich.
 
@@ -74,7 +73,7 @@ Bei der Umsetzung von mein ELBA 2.0 lernte ich die Vorteile von Angular 10 im Ve
 - **pushTAN-Desktop**  
 - **Barrierefreiheit**  
 
-Das Projekt brachte uns alle nahe an die Belastungsgrenze, bei unserem Product Owner wurde diese leider überschritten - sodass nur noch der Austritt aus unserem Team für ihm eine Lösung war. Das war der Zeitpunkt an dem ich, aufgrund meiner Erfahrung als Requirements Engineer mich entschied, das Projekt Infinity Mailbox zu übernehmen.
+Das Projekt brachte uns alle nahe an die Belastungsgrenze, bei unserem Product Owner wurde diese leider überschritten - sodass nur noch der Austritt aus unserem Team für ihn eine Lösung war. Das war der Zeitpunkt an dem ich, aufgrund meiner Erfahrung als Requirements Engineer entschied ich mich, das Projekt Infinity Mailbox zu übernehmen.
 
 ---
 
@@ -127,14 +126,36 @@ Zeitgleich zur Ablöse von MBS waren auch weitere Projekte an denen ich gearbeit
 
 - **Internationaler Zahlungsverkehr**  
 - **Deutscher Markt**
+- **Euro Umstellung Kroatien**
 - **Periodische Aufträge**
+- **Empfängerverifikation**
+- **Euro Umstellung Bulgarien**
 
 **Internationaler ZV** beinhaltet die Funktion, Konten von fremden Banken im Ausland in Infinity einzubinden und verwenden zu können (zur Auftragserfassung und Anzeige von Kontoauszügen). Besonderheit dabei ist, dass dieses Konto ausschließlich bei der fremden Bank existiert und wir diese Bank zur Durchführung von Aufträgen beauftragen (SWIFT). In diesem Projekt war besonders die Zusammenarbeit mit anderen Teams wichtig, sowie die Durchführung eines umfassenden End2End Tests.
 <div style="page-break-after: always;"></div>
 
 **Deutscher Markt** beinhaltet die Funktion, deutsche Bankverbindungen in Infinity einzurichten und diese mit fast allen Funktionen (außer Dauerauftrag) verwenden zu können. Dabei war die Umsetzung der deutschen EBICS Norm eine besondere Herausforderung, da diese sich in wichtigen Teilen von der österreichischen unterscheidet. Deshalb war es unser Ziel die Definitionen eindeutig und zentral zu steuern.
 
+**Euro Umstellung Kroatien** für die Euro Umstellung in Kroatien von HRK (Kuna) zu EUR (Euro) wurden Skripte vorbereitet, um vorhandene Aufträge mit der Währung HKR 
+vom Kunden, zu einem vorher fixierten Wechselkurs auf EUR zu konvertieren
+
 **Periodische Aufträge** beinhaltet die Funktion, einen Auftrag zu definieren, welcher in einer bestimmten Periode wiederholt generiert wird und dem Kunden in der Auftragsübersicht bereit steht.
+
+**Empfängerverifikation** auch bekannt als Instant Payment Verordnung wurde auf EU Ebene entschieden und reguliert. 
+Die Empfängerverifikation wurde ausschließlich für den Zahlungsstandard EBICS umgesetzt. 
+Vor dem Start des Projekts war eine Abstimmung mit allen österreichischen Banken notwendig,
+diese Abstimmungen wurden von der PSA (Payment Services Austria) koordiniert und geleitet, hier konnten Fragen und Rückmeldungen von uns platziert werden.
+Ebenfalls war die enge Abstimmung mit unserem eigenen Bankrechner wichtig, sowie das Konfigurieren einer stabilen Testzone.
+Bei der Empfängerverifikation, wird vor dem Unterzeichnen von einem Auftrag, der Empfänger mit der IBAN am Bankrechner verglichen,
+danach kann der Auftrag erst gezeichnet werden, je nach Ergebnis der Empfängerverifikation mit Hinweistext oder ohne.
+Dabei ist es wichtig, alle Schritte und Entscheidungen vom Kunden nachvollziehbar zu Journalisieren um bei Rückmeldungen reagieren zu können.
+Nach erfolgreicher Umsetzung war eine intensive Abstimmung mit anderen österreichischen Bankrechner notwendig, bzgl. Einsatz und Tests im Vorfeld.
+Im Zuge der Abstimmungen wurde entschieden am 09.10.25 00:00 die Empfängerverifikation bei allen österreichischen Banken zu aktivieren.
+Für den Einsatztag wurden Skripts vorbereitet, einerseits für Auswertungen und auch für Rückstieg (je Bankrechner konfigurierbar) 
+und Teams bestimmt um den gesamten Tag handlungsfähig zu sein.
+
+**Euro Umstellung Bulgarien** für die Euro Umstellung von BGN (Lev) auf EUR (Euro) konnten die Skripte von der Kroatien Umstellung wiederverwendet werden, 
+wichtig ist dabei auch die neuen periodischen Aufträge dabei zu berücksichtigen.
 
 ## Hackathons
 
