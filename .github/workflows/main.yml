@@ -18,45 +18,33 @@ jobs:
       - name: Code auschecken
         uses: actions/checkout@v4
 
-      # 2. Pandoc installieren
-      - name: Pandoc installieren
-        uses: pandoc/setup-pandoc@v3
-        with:
-          version: 'latest'
-
-      # 3. LaTeX für PDF-Erstellung installieren
-      #    (Immer noch benötigt für die PDF-Engine)
-      - name: LaTeX installieren (texlive)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-xetex texlive-fonts-recommended
-
-      # 4. Ein Verzeichnis für die Ergebnisse erstellen
+      # 2. Output-Verzeichnis erstellen
+      #    (Damit die Pandoc-Schritte ein Ziel haben)
       - name: Output-Verzeichnis erstellen
         run: mkdir -p output
 
-      # 5. Konvertierungen (nur HTML & PDF)
-      - name: Dateien mit Pandoc konvertieren
-        run: |
-          # 1. Markdown zu HTML
-          pandoc projects.md -s -o output/projects.html
-          
-          # 2. Markdown zu PDF
-          pandoc projects.md --pdf-engine=xelatex -o output/projects.pdf
+      # 3. HTML erstellen (mit der offiziellen Pandoc Action)
+      #    Diese Action enthält alles, was Pandoc braucht.
+      - name: HTML erstellen
+        uses: pandoc/actions@v3
+        with:
+          # Hier werden die Pandoc-Befehle übergeben
+          args: "projects.md -s -o output/projects.html"
 
-      # 6. Änderungen committen und zurück ins Repo pushen
-      #    Diese Action überschreibt automatisch bestehende Dateien.
+      # 4. PDF erstellen (mit der offiziellen Pandoc Action)
+      #    Die Action enthält auch LaTeX für die PDF-Erstellung.
+      - name: PDF erstellen
+        uses: pandoc/actions@v3
+        with:
+          args: "projects.md --pdf-engine=xelatex -o output/projects.pdf"
+
+      # 5. Änderungen committen und zurück ins Repo pushen
+      #    Dieser Schritt ersetzt die alten Dateien automatisch.
       - name: Generierte Dateien committen
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # Commit-Nachricht
           commit_message: "docs: Build HTML and PDF from projects.md [ci skip]"
-          
-          # Welche Dateien sollen committet werden?
-          # Du kannst hier auch "output/*.*" verwenden
           file_pattern: "output/projects.html output/projects.pdf"
-          
-          # Git-Benutzer für den Commit
           commit_user_name: "GitHub Action Bot"
           commit_user_email: "actions@github.com"
           commit_author: "GitHub Action Bot <actions@github.com>"
