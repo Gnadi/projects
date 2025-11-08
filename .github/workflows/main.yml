@@ -1,51 +1,21 @@
-# .github/workflows/build.yml
+name: Create PDF
 
-name: Build Project Documents
-
-on:
+on: 
   push:
-    branches:
-      - "main" # oder "master", je nach Hauptbranch
-    paths:
-      - 'projects.md' # Nur starten, wenn sich die MD-Datei ändert
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
     steps:
-      # 1. Code aus dem Repository auschecken
-      - name: Code auschecken
-        uses: actions/checkout@v4
-
-      # 2. Output-Verzeichnis erstellen
-      #    (Damit die Pandoc-Schritte ein Ziel haben)
-      - name: Output-Verzeichnis erstellen
-        run: mkdir -p output
-
-      # 3. HTML erstellen (mit der offiziellen Pandoc Action)
-      #    Diese Action enthält alles, was Pandoc braucht.
-      - name: HTML erstellen
-        uses: pandoc/actions@v4
+      - uses: actions/checkout@v2
+      - run: |
+          mkdir output  # create output dir
+          echo "FILELIST=projects.md >> $GITHUB_ENV
+      - uses: docker://pandoc/latex:2.9
         with:
-          # Hier werden die Pandoc-Befehle übergeben
-          args: "projects.md -s -o output/projects.html"
-
-      # 4. PDF erstellen (mit der offiziellen Pandoc Action)
-      #    Die Action enthält auch LaTeX für die PDF-Erstellung.
-      - name: PDF erstellen
-        uses: pandoc/actions@v4
+          args: --output=output/result.pdf ${ env.FILELIST }
+      - uses: actions/upload-artifact@v2
         with:
-          args: "projects.md --pdf-engine=xelatex -o output/projects.pdf"
-
-      # 5. Änderungen committen und zurück ins Repo pushen
-      #    Dieser Schritt ersetzt die alten Dateien automatisch.
-      - name: Generierte Dateien committen
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "docs: Build HTML and PDF from projects.md [ci skip]"
-          file_pattern: "output/projects.html output/projects.pdf"
-          commit_user_name: "GitHub Action Bot"
-          commit_user_email: "actions@github.com"
-          commit_author: "GitHub Action Bot <actions@github.com>"
+          name: output
+          path: output
