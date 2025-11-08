@@ -56,7 +56,6 @@ Parallel zur Barrierefreiheit in meinELBA, wurden die Entwickler und Aufträge i
 3. **Finanzstatus 2.0**  
 
 In dieser Zeit lernte ich Verantwortung für meine Projekte zu übernehmen, das war völlig neu für mich, war ich doch gleichzeitig Verantwortlicher für den Applikationstest beim Release in meinELBA. Die Dokumentation von Fortschritten, sowie die enge Abstimmung mit dem Product Owner bzw. auch dem Scrum Master des Projekts stellten mich vor neuen spannenden Herausforderungen, welche ich mit Unterstützung und Engagement erfolgreich bewältigte.  
-<div style="page-break-after: always;"></div> 
 In dieser Zeit lernte ich viele Funktionen von JIRA und Confluence zu nutzen, und wie Fortschritte eines Projektes optimal kommuniziert werden. Zu Beginn lernte ich die Designagentur kennen, mit der ich in gemeinsamer Abstimmung mit den Landesbanken OÖ und NÖW die Konzepte für meine neuen Projekte erfolgreich erarbeiten konnte. Nach Fertigstellung des Konzepts und Abstimmung mit dem Product Owner und Scrum Master des Teams, präsentierte ich zum Ende des Reviews den Zeitplan der Projekte. Die nächsten Wochen unterstützte ich das Entwicklerteam so gut wie möglich und setzte besondere Priorität auf schnelle und verlässliche Entscheidungen bei Fragen. Das war durch eine sehr professionelle Zusammenarbeit von Fachexperten und Designagentur möglich.
 
 ---------------
@@ -96,7 +95,7 @@ Nach dem erfolgreichen Rollout des Infinity Portals blieb ich weiter in meiner R
 
 Nachdem der erste Teil (individuelle Benachrichtigungen) der Erweiterungen von den Infinity Benachrichtigungen fertiggestellt war, wurde ein passender Bewerber für den noch ausgeschrieben Product Owner, welchen ich übernommen habe gefunden.
 
-Bei der Übergabe war mir legte ich besonders Wert auf das fachliche Verständins unserer Projekte in Infinity und dem BigPicture des Gesamtprojekts. Die Details zu den Projekten waren ausführlich in **Confluence** dokumentiert, sodass diese in Eigenstudium vom neuen Kollegen übernommen werden konnten. Auch das Vorstellen des Kollegen in anderen Teams, mit denen wir bereits Projekte umgesetzt hatten, war für mich wichtig um hier Ansprechpersonen vorzustellen.
+Bei der Übergabe legte ich besonders Wert auf das fachliche Verständnis unserer Projekte in Infinity und dem BigPicture des Gesamtprojekts. Die Details zu den Projekten waren ausführlich in **Confluence** dokumentiert, sodass diese in Eigenstudium vom neuen Kollegen übernommen werden konnten. Auch das Vorstellen des Kollegen in anderen Teams, mit denen wir bereits Projekte umgesetzt hatten, war für mich wichtig um hier Ansprechpersonen vorzustellen.
 
 
 ---------------
@@ -109,7 +108,7 @@ Das nächste Projekt übernahmen wir von einem anderen Infinity Team, dabei ist 
 
 ### Infinity Terminvereinbarung / Rückrufwunsch
 
-Nach Abschluss der “Bankgarantie Ausland” startete das letzte Projekt welches mir der frühere Product Owner übergeben hatte, die Infinity Terminvereinbarung und Rückrufwunsch. Bei diesem Projekt starteten der neue Product Owner und ich gemeinsam, ich mit der technischen Expertise und der Kollege mit dem Kontakt zu unseren Fachexperten. Bei dem Projekt sind wieder zwei Teams involviert, die technische Abstimmung durfte ich leiten und wurde auch wieder mit dem Software-Architekten und Lead-Developer abgestimmt. Nachdem das Konzept fertig war, unterstützte ich dem neuen Product Owner bei der Erstellung der Tickets und Fragen, sodass ein möglichst rascher Projektstart möglich war. In dem Projekt habe ich auch als Entwickler mitgewirkt und im Frontend verschiedene Masken umgesetzt, auch hier entschieden wir uns fehlende Schnittstellen mit Mocks vorläufig zu ersetzen um früher mit dem Frontend starten zu können. Zum Ende des Projekts beschäftigte ich mich hier, wie bei dem Projekt “Bankgarantie Ausland” auch schon mit dem **Testing Tool Jasmine** beschäftigt und damit die Testabdeckung erheblich steigerte (+>10%)
+Nach Abschluss der “Bankgarantie Ausland” startete das letzte Projekt, welches mir der frühere Product Owner übergeben hatte, die Infinity Terminvereinbarung und Rückrufwunsch. Bei diesem Projekt starteten der neue Product Owner und ich gemeinsam, ich mit der technischen Expertise und der Kollege mit dem Kontakt zu unseren Fachexperten. Bei dem Projekt sind wieder zwei Teams involviert, die technische Abstimmung durfte ich leiten und wurde auch wieder mit dem Software-Architekten und Lead-Developer abgestimmt. Nachdem das Konzept fertig war, unterstützte ich dem neuen Product Owner bei der Erstellung der Tickets und Fragen, sodass ein möglichst rascher Projektstart möglich war. In dem Projekt habe ich auch als Entwickler mitgewirkt und im Frontend verschiedene Masken umgesetzt, auch hier entschieden wir uns fehlende Schnittstellen mit Mocks vorläufig zu ersetzen um früher mit dem Frontend starten zu können. Zum Ende des Projekts beschäftigte ich mich hier, wie bei dem Projekt “Bankgarantie Ausland” auch schon mit dem **Testing Tool Jasmine** beschäftigt und damit die Testabdeckung erheblich steigerte (+>10%)
 
 ---------------
 
