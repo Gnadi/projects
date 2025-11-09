@@ -53,9 +53,10 @@ Parallel zur Barrierefreiheit in meinELBA, wurden die Entwickler und Aufträge i
 
 1. **Erweiterte Druckoptionen im Infinity-Portal**  
 2. **Individuelle Startseite im Infinity-Portal**  
-3. **Finanzstatus 2.0**  
+3. **Finanzstatus 2.0** 
+4. **Anbindung Raiffeisen Verband Salzburg**
 
-In dieser Zeit lernte ich Verantwortung für meine Projekte zu übernehmen, das war völlig neu für mich, war ich doch gleichzeitig Verantwortlicher für den Applikationstest beim Release in meinELBA. Die Dokumentation von Fortschritten, sowie die enge Abstimmung mit dem Product Owner bzw. auch dem Scrum Master des Projekts stellten mich vor neuen spannenden Herausforderungen, welche ich mit Unterstützung und Engagement erfolgreich bewältigte.  
+In dieser Zeit lernte ich Verantwortung für meine Projekte gegenüber den Fachexperten zu übernehmen. Die Dokumentation von Fortschritten, sowie die enge Abstimmung mit dem Product Owner bzw. auch dem Scrum Master des Projekts stellten mich vor neuen spannenden Herausforderungen, welche ich mit Unterstützung und Engagement erfolgreich bewältigte.  
 In dieser Zeit lernte ich viele Funktionen von JIRA und Confluence zu nutzen, und wie Fortschritte eines Projektes optimal kommuniziert werden. Zu Beginn lernte ich die Designagentur kennen, mit der ich in gemeinsamer Abstimmung mit den Landesbanken OÖ und NÖW die Konzepte für meine neuen Projekte erfolgreich erarbeiten konnte. Nach Fertigstellung des Konzepts und Abstimmung mit dem Product Owner und Scrum Master des Teams, präsentierte ich zum Ende des Reviews den Zeitplan der Projekte. Die nächsten Wochen unterstützte ich das Entwicklerteam so gut wie möglich und setzte besondere Priorität auf schnelle und verlässliche Entscheidungen bei Fragen. Das war durch eine sehr professionelle Zusammenarbeit von Fachexperten und Designagentur möglich.
 
 ---------------
@@ -63,9 +64,9 @@ In dieser Zeit lernte ich viele Funktionen von JIRA und Confluence zu nutzen, un
 ### MeinELBA 2.0
 
 Ende 2020 startete das größte Projekt in meiner jungen Laufbahn als Entwickler, “Mein ELBA 2.0 Online Banking leicht gemacht”. 
-In diesem Projekt wurde mein ELBA neu umgesetzt, auf dem bestehenden Backend wurde ein völlig neues Frontend für meinELBA entwickelt. Hier war ich von Beginn an Teil des Teams und durfte so die ersten Zeilen von meinELBA 2.0 entwickeln. Schnell wurde klar dass hier die Einbindung von Entwicklern bei der Konzeptionierung von Seiten unbedingt notwendig ist. Der Umstieg von AngularJS auf Angular und auch die Kommunikation zu einem neu aufgestellten Design Team war besonders zu Beginn eine Herausforderung.
+In diesem Projekt wurde mein ELBA neu umgesetzt, auf dem bestehenden Backend wurde ein völlig neues Frontend für meinELBA schreiben. Hier war ich von Beginn an Teil des Teams und durfte so die ersten Zeilen von meinELBA 2.0 entwickeln. Schnell wurde klar dass hier die Einbindung von Entwicklern bei der Konzeptionierung von Seiten unbedingt notwendig ist. Der Umstieg von AngularJS auf Angular und auch die Kommunikation zu einem neu aufgestellten Design Team war besonders zu Beginn eine Herausforderung.
 Bei diesem Projekt stand unser gesamtes Team unter sehr starkem Druck, da die Deadline mit Jahreswechsel 2021/2022 fix war.
-Bei der Umsetzung von mein ELBA 2.0 lernte ich die Vorteile von Angular 10 im Vergleich zum veralteten AngularJS, auch das neu definierte Navigationssystem war anfangs nur schwer umsetzbar. Schlussendlich war es wieder die Kommunikation und enge Abstimmung mit allen Teams, was dieses Projekt zu einem Erfolg machte. Im Zuge dieses Projekts habe ich folgende Funktionen von meinELBA mit neuem Framework und Styleguide umgesetzt:
+Bei der Umsetzung von mein ELBA 2.0 lernte ich die Vorteile von Angular 10 im Vergleich zum veralteten AngularJS kennen. Besonders das neu definierte Navigationssystem war anfangs nur schwer umsetzbar. Schlussendlich war es wieder die Kommunikation und enge Abstimmung mit allen Teams, was dieses Projekt zu einem Erfolg machte. Im Zuge dieses Projekts habe ich folgende Funktionen von meinELBA mit neuem Framework und Styleguide umgesetzt:
  
 
 - **Terminvereinbarungen**  
@@ -73,7 +74,7 @@ Bei der Umsetzung von mein ELBA 2.0 lernte ich die Vorteile von Angular 10 im Ve
 - **pushTAN-Desktop**  
 - **Barrierefreiheit**  
 
-Das Projekt brachte uns alle nahe an die Belastungsgrenze, bei unserem Product Owner wurde diese leider überschritten - sodass nur noch der Austritt aus unserem Team für ihn eine Lösung war. Das war der Zeitpunkt an dem ich, aufgrund meiner Erfahrung als Requirements Engineer entschied ich mich, das Projekt Infinity Mailbox zu übernehmen.
+Das Projekt brachte uns alle nahe an die Belastungsgrenze, bei unserem Product Owner wurde diese leider überschritten - sodass nur noch der Austritt aus unserem Team für ihn eine Lösung war. Das war der Zeitpunkt an dem ich mich entschied, aufgrund meiner Erfahrung als Requirements Engineer, das Projekt Infinity Mailbox zu übernehmen.
 
 ---------------
 
@@ -92,7 +93,7 @@ Für den finalen Abnahmetest war eine Zusammenarbeit aller vier Teams notwendig.
 
 Nach dem erfolgreichen Rollout des Infinity Portals blieb ich weiter in meiner Rolle als Product Owner für Infinity Themen und erstellte gemeinsam mit der Design Agentur (Netural) und den Fachexperten, das Konzept zur Weiterentwicklung der Infinity Benachrichtigungen. Hier konnten wir den ersten Teil, **individuelle Benachrichtigungen**, unabhängig von anderen Teams umsetzen und für den zweiten Teil, **Watch Dogs** (Benachrichtigungen für Limits bei Kontoeingängen und Kontoausgängen) eine Schnittstelle für ein anderes Team zur Verfügung stellen. Dazu habe ich zuerst wieder das Konzept mit dem Software-Architekten und Lead-Developer abgestimmt und danach Stories erfasst.
 
-Nachdem der erste Teil (individuelle Benachrichtigungen) der Erweiterungen von den Infinity Benachrichtigungen fertiggestellt war, wurde ein passender Bewerber für den noch ausgeschrieben Product Owner, welchen ich übernommen habe gefunden.
+Nachdem der erste Teil (individuelle Benachrichtigungen) der Erweiterungen von den Infinity Benachrichtigungen fertiggestellt war, wurde ein passender Bewerber für den noch ausgeschrieben Product Owner, welchen ich übernommen habe, gefunden.
 
 Bei der Übergabe legte ich besonders Wert auf das fachliche Verständnis unserer Projekte in Infinity und dem BigPicture des Gesamtprojekts. Die Details zu den Projekten waren ausführlich in **Confluence** dokumentiert, sodass diese in Eigenstudium vom neuen Kollegen übernommen werden konnten. Auch das Vorstellen des Kollegen in anderen Teams, mit denen wir bereits Projekte umgesetzt hatten, war für mich wichtig um hier Ansprechpersonen vorzustellen.
 
@@ -107,7 +108,7 @@ Das nächste Projekt übernahmen wir von einem anderen Infinity Team, dabei ist 
 
 ### Infinity Terminvereinbarung / Rückrufwunsch
 
-Nach Abschluss der “Bankgarantie Ausland” startete das letzte Projekt, welches mir der frühere Product Owner übergeben hatte, die Infinity Terminvereinbarung und Rückrufwunsch. Bei diesem Projekt starteten der neue Product Owner und ich gemeinsam, ich mit der technischen Expertise und der Kollege mit dem Kontakt zu unseren Fachexperten. Bei dem Projekt sind wieder zwei Teams involviert, die technische Abstimmung durfte ich leiten und wurde auch wieder mit dem Software-Architekten und Lead-Developer abgestimmt. Nachdem das Konzept fertig war, unterstützte ich dem neuen Product Owner bei der Erstellung der Tickets und Fragen, sodass ein möglichst rascher Projektstart möglich war. In dem Projekt habe ich auch als Entwickler mitgewirkt und im Frontend verschiedene Masken umgesetzt, auch hier entschieden wir uns fehlende Schnittstellen mit Mocks vorläufig zu ersetzen um früher mit dem Frontend starten zu können. Zum Ende des Projekts beschäftigte ich mich hier, wie bei dem Projekt “Bankgarantie Ausland” auch schon mit dem **Testing Tool Jasmine** beschäftigt und damit die Testabdeckung erheblich steigerte (+>10%)
+Nach Abschluss der “Bankgarantie Ausland” startete das letzte Projekt, welches mir der frühere Product Owner übergeben hatte, die Infinity Terminvereinbarung und Rückrufwunsch. Bei diesem Projekt starteten der neue Product Owner und ich gemeinsam, ich mit der technischen Expertise und der Kollege mit dem Kontakt zu unseren Fachexperten. Bei dem Projekt sind wieder zwei Teams involviert, die technische Abstimmung durfte ich leiten und wurde auch wieder mit dem Software-Architekten und Lead-Developer abgestimmt. Nachdem das Konzept fertig war, unterstützte ich den neuen Product Owner bei der Erstellung der Tickets und Fragen, sodass ein möglichst rascher Projektstart möglich war. In dem Projekt habe ich auch als Entwickler mitgewirkt und im Frontend verschiedene Masken umgesetzt, auch hier entschieden wir uns fehlende Schnittstellen mit Mocks vorläufig zu ersetzen um früher mit dem Frontend starten zu können. Zum Ende des Projekts beschäftigte ich mich hier, wie bei dem Projekt “Bankgarantie Ausland” auch schon mit dem **Testing Tool Jasmine** beschäftigt und damit die Testabdeckung erheblich steigerte (+>10%)
 
 ---------------
 
@@ -135,7 +136,7 @@ Zeitgleich zur Ablöse von MBS waren auch weitere Projekte an denen ich gearbeit
 **Deutscher Markt** beinhaltet die Funktion, deutsche Bankverbindungen in Infinity einzurichten und diese mit fast allen Funktionen (außer Dauerauftrag) verwenden zu können. Dabei war die Umsetzung der deutschen EBICS Norm eine besondere Herausforderung, da diese sich in wichtigen Teilen von der österreichischen unterscheidet. Deshalb war es unser Ziel die Definitionen eindeutig und zentral zu steuern.
 
 **Euro Umstellung Kroatien** für die Euro Umstellung in Kroatien von HRK (Kuna) zu EUR (Euro) wurden Skripte vorbereitet, um vorhandene Aufträge mit der Währung HKR 
-vom Kunden, zu einem vorher fixierten Wechselkurs auf EUR zu konvertieren
+vom Kunden, zu einem vorher fixierten Wechselkurs auf EUR zu konvertieren. Ich übernahm bei dieser Umstellung die Bereitschaft während der Umstellung.
 
 **Periodische Aufträge** beinhaltet die Funktion, einen Auftrag zu definieren, welcher in einer bestimmten Periode wiederholt generiert wird und dem Kunden in der Auftragsübersicht bereit steht.
 \newpage
